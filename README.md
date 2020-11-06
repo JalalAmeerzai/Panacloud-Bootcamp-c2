@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# PanaCloud Bootcamp Class 3 - Introduction to React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
