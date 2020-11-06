@@ -11,10 +11,10 @@ import React from 'react';
 
 let Dinner = (props) => {
     return (
-        <div>
+        <React.Fragment>
             <h1>Today we are serving {props.dishName}</h1>
             <h1>And for sweet we are also serving {props.sweetName}</h1>
-        </div>
+        </React.Fragment>
     );
 }
 
