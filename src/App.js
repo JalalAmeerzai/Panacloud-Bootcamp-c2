@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import Dinner from './dinner';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World, React Base Application session 3
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Dinner dishName="Chicken Biryani" sweetName="Kheer" />
+        <hr/>
+        <Dinner dishName="Chicken Karahi" sweetName="Halwa" />
       </header>
     </div>
   );

@@ -1,0 +1,12 @@
+import React from 'react';
+
+function Dinner(props){
+    return (
+        <div className="App">
+            <h1>Today we are serving {props.dishName}</h1>
+            <h1>And we are also serving {props.sweetName}</h1>
+        </div>
+    );
+}
+
+export default Dinner;

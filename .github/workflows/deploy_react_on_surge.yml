@@ -6,7 +6,7 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ class3 ]
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,6 +19,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          ref: class3
 
       # Runs a single command using the runners shell
       - name: Install Node for Surge
@@ -41,4 +43,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploy Website on Surge
-        run: surge ./build http://class-two-jalal.surge.sh/ --token ${{secrets.SURGE_LOGIN_TOKEN}}
+        run: surge ./build http://jalal-panacloud-bootcamp.surge.sh/ --token ${{secrets.SURGE_LOGIN_TOKEN}}
