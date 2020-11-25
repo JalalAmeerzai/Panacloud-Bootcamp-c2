@@ -1,19 +1,9 @@
 import React from 'react';
 
-// function Dinner(props){
-//     return (
-//         <div className="App">
-//             <h1>Today we are serving {props.dishName}</h1>
-//             <h1>And we are also serving {props.sweetName}</h1>
-//         </div>
-//     );
-// }
-
-let Dinner = (props) => {
+function Dinner(props){
     return (
         <React.Fragment>
-            <h1>Today we are serving {props.dishName}</h1>
-            <h1>And for sweet we are also serving {props.sweetName}</h1>
+            <h1>{props.dishName} | Servings: {props.serving}</h1>
         </React.Fragment>
     );
 }
