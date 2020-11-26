@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <header className={`${mode ? 'darkMode' : 'lightMode'}`}>
-        <button onClick={ () => setMode(!mode)}>
+        <button onClick={ () => setMode(prevState => !prevState)}>
           Change Mode
         </button>
         <h3>Theme Selected: {mode ? 'Dark Mode' : 'Light Mode'}</h3>
         <Dinner dishName="Chicken Biryani" serving={count} />
-        <button onClick={() => setCount(++count)}>
+        <button onClick={() => setCount(prevState => prevState + 1)}>
           Increase Servings
         </button>
       </header>
