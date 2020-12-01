@@ -1,8 +1,8 @@
-# PanaCloud Bootcamp Class 4 - Introduction to React (Pt. 2)
+# PanaCloud Bootcamp Class 5 - Context API and Reducer
 
-## To Learn About States in React
-We use react hooks for state management...
+## CreateContext in React and useContext
+make a state available to all the childs and granchilds inside root.
 
-### React Hoooks (useState Hook)
-eg: let [count, setCount] = useState(value)
+## React Reducer (useReducer Hook)
+make a state available to all the childs and granchilds inside root.
 
