@@ -1,0 +1,11 @@
+.table__gridBox__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: khaki;
+}
+
+.table__gridBox__form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #282c34;
+}

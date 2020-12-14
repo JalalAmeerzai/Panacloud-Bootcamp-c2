@@ -1,0 +1,11 @@
+.table__singleBox{
+    text-align: center;
+    background-color: #282c34;
+    margin:20px;
+    padding: 10px;
+}
+
+.table__singleBox__singleLine{
+    color: white;
+    margin: 15px;
+}
