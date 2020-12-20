@@ -1,8 +1,6 @@
-# PanaCloud Bootcamp Class 5 - Context API and Reducer
+# PanaCloud Bootcamp Class 7 - Asynchronous Programming
 
-## CreateContext in React and useContext
-make a state available to all the childs and granchilds inside root.
+## Callbacks and Promises
+This class will teaches about asynchronous programming using Callbacks and Promises
 
-## React Reducer (useReducer Hook)
-make a state available to all the childs and granchilds inside root.
 
