@@ -1,8 +1,8 @@
-# PanaCloud Bootcamp Class 5 - Context API and Reducer
+# PanaCloud Bootcamp Class 8 - Fetching Data in React
 
-## CreateContext in React and useContext
-make a state available to all the childs and granchilds inside root.
+## 1) useEffect Hook in React
+fetch data using useEffect hook in react.
 
-## React Reducer (useReducer Hook)
-make a state available to all the childs and granchilds inside root.
+## 2) Suspense in React
+fetch data using suspenses in react.
 
